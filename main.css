@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url ("imagensdossite/um");
+  color: #ececec;
+
+  font-family: "Roboto", sans-serif;
+
+  display: grid;
+  grid-template-areas: "profile timeline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+}
+
+nav {
+  padding: 64px;
+  grid-area: timeline;
+
+  overflow-y: scroll;
+}
+
+
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  text-decoration: none;
+  margin-bottom: 64px;
+}
+
+
+.div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+.memory img {
+  background-image: url ("imagensdossite/um.jpg");
+  width: 100%;
+  height: 100px;
+  object-fit: cover ;
+  border-radius: 8px;
+
+  transition: transform 0.3s ease-in-out;
+
+} 
+
+
+
+---------
+
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}
